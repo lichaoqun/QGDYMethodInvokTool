@@ -46,6 +46,15 @@ static dispatch_semaphore_t semaphore_;
 +(void)setObject:(id)obj withKey:(NSString *)key{
     
     dispatch_semaphore_wait([self semaphore], DISPATCH_TIME_FOREVER);
+    
+    /** 判断 key value 是不是为空 */
+    if (!key || !obj) {
+#if DEBUG
+        NSAssert(0, @"key 和 value 不可以为空");
+#endif
+        return ;
+    }
+    
 #if DEBUG
     /** 查看不是有这个对象对应的键名了 */
     NSEnumerator * keyEnumerator = [[self objsDic] keyEnumerator];
