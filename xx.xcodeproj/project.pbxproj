@@ -13,6 +13,10 @@
 		D0F0BB0B2020B65E002206F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F0BB0A2020B65E002206F4 /* Assets.xcassets */; };
 		D0F0BB0E2020B65E002206F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F0BB0C2020B65E002206F4 /* LaunchScreen.storyboard */; };
 		D0F0BB112020B65E002206F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F0BB102020B65E002206F4 /* main.m */; };
+		D0F0BB192020B66D002206F4 /* TTT.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F0BB182020B66D002206F4 /* TTT.m */; };
+		D0F0BB1C2020BE6F002206F4 /* FF.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F0BB1B2020BE6F002206F4 /* FF.m */; };
+		D0F0BB1F2020C284002206F4 /* DYMethodInvokTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F0BB1E2020C284002206F4 /* DYMethodInvokTool.m */; };
+		D0F0BB222020D2FB002206F4 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F0BB212020D2FB002206F4 /* RedView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		D0F0BB0D2020B65E002206F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0F0BB0F2020B65E002206F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0F0BB102020B65E002206F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0F0BB172020B66D002206F4 /* TTT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTT.h; sourceTree = "<group>"; };
+		D0F0BB182020B66D002206F4 /* TTT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTT.m; sourceTree = "<group>"; };
+		D0F0BB1A2020BE6F002206F4 /* FF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FF.h; sourceTree = "<group>"; };
+		D0F0BB1B2020BE6F002206F4 /* FF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FF.m; sourceTree = "<group>"; };
+		D0F0BB1D2020C284002206F4 /* DYMethodInvokTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYMethodInvokTool.h; sourceTree = "<group>"; };
+		D0F0BB1E2020C284002206F4 /* DYMethodInvokTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYMethodInvokTool.m; sourceTree = "<group>"; };
+		D0F0BB202020D2FB002206F4 /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		D0F0BB212020D2FB002206F4 /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 				D0F0BB022020B65E002206F4 /* AppDelegate.m */,
 				D0F0BB042020B65E002206F4 /* ViewController.h */,
 				D0F0BB052020B65E002206F4 /* ViewController.m */,
+				D0F0BB1D2020C284002206F4 /* DYMethodInvokTool.h */,
+				D0F0BB1E2020C284002206F4 /* DYMethodInvokTool.m */,
+				D0F0BB202020D2FB002206F4 /* RedView.h */,
+				D0F0BB212020D2FB002206F4 /* RedView.m */,
+				D0F0BB172020B66D002206F4 /* TTT.h */,
+				D0F0BB182020B66D002206F4 /* TTT.m */,
+				D0F0BB1A2020BE6F002206F4 /* FF.h */,
+				D0F0BB1B2020BE6F002206F4 /* FF.m */,
 				D0F0BB072020B65E002206F4 /* Main.storyboard */,
 				D0F0BB0A2020B65E002206F4 /* Assets.xcassets */,
 				D0F0BB0C2020B65E002206F4 /* LaunchScreen.storyboard */,
@@ -142,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F0BB192020B66D002206F4 /* TTT.m in Sources */,
 				D0F0BB062020B65E002206F4 /* ViewController.m in Sources */,
+				D0F0BB1C2020BE6F002206F4 /* FF.m in Sources */,
 				D0F0BB112020B65E002206F4 /* main.m in Sources */,
 				D0F0BB032020B65E002206F4 /* AppDelegate.m in Sources */,
+				D0F0BB1F2020C284002206F4 /* DYMethodInvokTool.m in Sources */,
+				D0F0BB222020D2FB002206F4 /* RedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
